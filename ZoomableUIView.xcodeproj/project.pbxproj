@@ -14,6 +14,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A2386B51F0ED4C300B1F63D /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		1A2386B61F0ED4CF00B1F63D /* ZoomableUIView.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ZoomableUIView.podspec; sourceTree = "<group>"; };
 		66EDB61C4244FD704E0370A6 /* Pods-ZoomableUIView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZoomableUIView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZoomableUIView/Pods-ZoomableUIView.release.xcconfig"; sourceTree = "<group>"; };
 		97D083A01F0E6CA1002844F4 /* ZoomableUIView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZoomableUIView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97D083A31F0E6CA1002844F4 /* ZoomableUIView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZoomableUIView.h; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		97D083961F0E6CA0002844F4 = {
 			isa = PBXGroup;
 			children = (
+				1A2386B51F0ED4C300B1F63D /* Podfile */,
+				1A2386B61F0ED4CF00B1F63D /* ZoomableUIView.podspec */,
 				97D083A21F0E6CA1002844F4 /* ZoomableUIView */,
 				97D083A11F0E6CA1002844F4 /* Products */,
 				C09B84ADEB0C5AD57BD4991E /* Pods */,

@@ -8,12 +8,12 @@
 
 import UIKit
 
-struct ZoomableViewOptions {
+public struct ZoomableViewOptions {
    var minZoom: CGFloat
    var maxZoom: CGFloat
 }
 
-protocol ZoomableUIView {
+public protocol ZoomableUIView {
    func reset()
    func viewForZooming() -> UIView
    func optionsForZooming() -> ZoomableViewOptions
