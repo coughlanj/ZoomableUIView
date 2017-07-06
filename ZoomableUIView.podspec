@@ -40,6 +40,4 @@ s.framework = "UIKit"
 # 8
 s.source_files = "ZoomableUIView/**/*.{swift}"
 
-# 9
-s.resources = "ZoomableUIView/**/*.{png,jpeg,jpg,storyboard,xib}"
 end
