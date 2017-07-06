@@ -26,7 +26,7 @@ public protocol ZoomableUIView {
 
 extension ZoomableUIView where Self: UIView {
    
-   func reset() {
+   public func reset() {
       UIView.animate(withDuration: 0.3) {
          self.viewForZooming().transform = .identity
       }
@@ -36,7 +36,7 @@ extension ZoomableUIView where Self: UIView {
       }
    }
    
-   func setZoomable(_ zoomable: Bool) {
+   public func setZoomable(_ zoomable: Bool) {
       viewForZooming().transform = .identity
       isUserInteractionEnabled = zoomable
       gestureRecognizers = nil
