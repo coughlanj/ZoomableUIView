@@ -11,6 +11,11 @@ import UIKit
 public struct ZoomableViewOptions {
    var minZoom: CGFloat
    var maxZoom: CGFloat
+   
+   public init(minZoom: CGFloat, maxZoom: CGFloat) {
+      self.minZoom = minZoom
+      self.maxZoom = maxZoom
+   }
 }
 
 public protocol ZoomableUIView {
