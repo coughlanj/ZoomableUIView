@@ -5,8 +5,6 @@ ZoomableUIView is a protocol that any UIView can conform to in order to be able 
 ZoomableUIView is using **swift3**.
 - - -
 
-#![SwiftSpinner Screenshot](https://raw.githubusercontent.com/icanzilb/SwiftSpinner/master/etc/spinner-preview.gif)
-
 ## Usage
 
 The simple code to get `ZoomableUIView` running in your own app.
