@@ -40,6 +40,7 @@ extension ZoomableUIView where Self: UIView {
       viewForZooming().transform = .identity
       isUserInteractionEnabled = zoomable
       gestureRecognizers = nil
+      layer.masksToBounds = zoomable
       
       if zoomable {
          addGestureRecognizer(UIPinchGestureRecognizer(target: self, action: #selector(didPinchZoomableView(_:))))
