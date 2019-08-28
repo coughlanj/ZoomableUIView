@@ -52,6 +52,12 @@ Set zooming options such as min and max zoom
    func optionsForZooming() -> ZoomableViewOptions
 ```
 
+If you want to overwrite the default reset logic then feel free to implement 
+```swift
+   func reset() 
+```
+But it's not required
+
 ## Requirements
 
 UIKit must be imported. If you are using ZoomableUIView in an App Extension, you must add `EXTENSION` to your `Other Swift Flags` Build Settings.
